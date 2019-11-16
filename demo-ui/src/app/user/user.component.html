@@ -1,0 +1,14 @@
+<body>
+    <div *ngFor="let customers of roles">
+    <div class=card>
+      <img class=cardimg src="https://res.cloudinary.com/fleurop/cmsimages2/content/newsletter/alles-ueber-blumen/valentinstag-rosenblaetter-header.jpg" width="100%" height="10%">
+      <div class=cardcontent>
+        User authenticated 
+        {{customers}}
+      </div>
+      <div class=cardfooter>
+        <input type="button" value="submit" onclick="alert('Submit button clicked')"/>
+      </div>
+    </div>
+    </div>
+  </body>

@@ -1,0 +1,83 @@
+
+* {
+    margin: 0;
+    padding: 5px 5px 5px 5px;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    transition: 1s ease-in;
+  }
+  
+  .card {
+    width: 450px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    white-space: nowrap;
+  }
+  .cardimg {
+  }
+  
+  .cardcontent {
+    height: 39%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .cardcontent {
+    font-size: 0.8em;
+  }
+  .cardfooter {
+    height: 12%;
+    background: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .cardbutton {
+    background: lightgreen;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s ease-in;
+  }
+  .cardbutton i {
+    color: white;
+  }
+  
+  .cardbutton:hover {
+    background: cyan;
+  }
+  .cardfooter h3 {
+    font-size: 0.8em;
+  }
+  .cardreadme {
+    color: rgb(150, 150, 150);
+  }
+  .cardcontent p:nth-child(1) {
+    font-size: 0.8em;
+  }
+  .cardcontent h3 {
+    font-size: 1.4em;
+  }
+  .cardcontent p:nth-child(2) {
+    font-size: 0.9em;
+  }
+  
